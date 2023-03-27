@@ -21,10 +21,10 @@ time="2023-03-27 18:27:49" level=error pid=983 msg="JSON-RPC call failed: [
    null
 ], req_id=1"`
 
+3. In order to run a successful installation you need to run a `cargo update` on `btcpool-docker-compose/nodebridge/nodebridge`
+4. Grafana dashboard works fine but need to adjust new variables for NODE height.
 
-3. Pick a [network](#configure-the-network) to run on 
-4. [Validate](#validate-that-the-pool-is-running) that the deployment is working 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # btcpool-docker-compose
 
