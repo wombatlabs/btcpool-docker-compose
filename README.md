@@ -13,7 +13,13 @@ btcpool_1     | I0326 01:08:18.328898     9 StratumSession.cc:248] authorize suc
 btcpool_1     | I0326 01:09:38.223613     9 StratumSessionCkb.cc:160] receive handleRequest_Subscribe jparams : ["GodMiner/2.0.0",null]
 btcpool_1     | I0326 01:09:38.223685     9 StratumSessionCkb.cc:175] send mining  :{"id":1,"result":["null","000002",5],"error":null}
 btcpool_1     | I0326 01:09:38.243556     9 StratumServer.cc:1187] socket closed`
-
+1. ASIC miner, miner log:
+`time="2023-03-27 18:27:49" level=error pid=983 msg="n1size 3, n2size 5, n1size + n2size != 16, in parse_extranonce"
+time="2023-03-27 18:27:49" level=error pid=983 msg="JSON-RPC call failed: [
+   2147483647,
+   "Unknown",
+   null
+], req_id=1"`
 
 
 3. Pick a [network](#configure-the-network) to run on 
