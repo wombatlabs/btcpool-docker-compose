@@ -3,11 +3,11 @@
 1. JSON RPC code need to be updated, I believe in the nodebridge side. (i.e. ([StratumServer.cc:310] jobId already existed")
 1. miner-list does not allow to add more users, other than the pre-defioned in this code (alice and bob) - If you add more users in the JSON file and rebuild the docker, it does not work. 
 1. TT miner is able to connect have a lot of stale shares and then it start mining, ASICs miners does not get to the authorize stage and close the socket. From the ASIC perspective the status of the pool is "abnormal" see errors:
-```btcpool_1     | I0326 01:08:18.239164     9 StratumSession.cc:104] client connect, ip: 98.110.163.76
+btcpool_1     | I0326 01:08:18.239164     9 StratumSession.cc:104] client connect, ip: 98.110.163.76
 btcpool_1     | I0326 01:08:18.239850     9 StratumSessionCkb.cc:160] receive handleRequest_Subscribe jparams : ["TT-Miner/5.0.1",""]
 btcpool_1     | I0326 01:08:18.239898     9 StratumSessionCkb.cc:175] send mining  :{"id":1,"result":["null","000001",5],"error":null}
 btcpool_1     | I0326 01:08:18.328831     9 StratumSessionCkb.cc:181] receive handleRequest_Authorize jparams : ["bob",""]
-btcpool_1     | I0326 01:08:18.328898     9 StratumSession.cc:248] authorize success, userId: 2, wokerHashId: 8113131267054106046, workerName: bob.__default__, password: , clientAgent: TT-Miner/5.0.1, clientIp: 98.110.163.76, chain: default```
+btcpool_1     | I0326 01:08:18.328898     9 StratumSession.cc:248] authorize success, userId: 2, wokerHashId: 8113131267054106046, workerName: bob.__default__, password: , clientAgent: TT-Miner/5.0.1, clientIp: 98.110.163.76, chain: default
 
 
 
