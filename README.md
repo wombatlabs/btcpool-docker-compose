@@ -10,6 +10,7 @@ btcpool_1     | I0326 01:08:18.328831     9 StratumSessionCkb.cc:181] receive ha
 btcpool_1     | I0326 01:08:18.328898     9 StratumSession.cc:248] authorize success, userId: 2, wokerHashId: 8113131267054106046, workerName: bob.__default__, password: , clientAgent: TT-Miner/5.0.1, clientIp: 98.110.163.76, chain: default```
 
 
+
 3. Pick a [network](#configure-the-network) to run on 
 4. [Validate](#validate-that-the-pool-is-running) that the deployment is working 
 
