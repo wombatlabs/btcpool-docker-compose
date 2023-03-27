@@ -1,3 +1,5 @@
+# updates found to get this partially working:
+
 # btcpool-docker-compose
 
 This is a docker-compose stack to setup a Stratum V1 mining pool for Nervos Blockchain.  It sets up the required infrastructure along with several utilities such as prometheus for operations. It can be deployed independently or via ansible and / or terraform with it's associated roles. 
