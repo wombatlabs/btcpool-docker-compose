@@ -9,7 +9,7 @@ btcpool_1     | I0326 01:08:18.239898     9 StratumSessionCkb.cc:175] send minin
 btcpool_1     | I0326 01:08:18.328831     9 StratumSessionCkb.cc:181] receive handleRequest_Authorize jparams : ["bob",""]
 btcpool_1     | I0326 01:08:18.328898     9 StratumSession.cc:248] authorize success, userId: 2, wokerHashId: 8113131267054106046, workerName: bob.__default__, password: , clientAgent: TT-Miner/5.0.1, clientIp: 132.110.163.76, chain: default`
 1. ASIC miner:
-`btcpool_1     | I0326 01:09:38.223323     9 StratumSession.cc:104] client connect, ip: 166.113.60.207
+`btcpool_1     | I0326 01:09:38.223323     9 StratumSession.cc:104] client connect, ip: 168.110.60.207
 btcpool_1     | I0326 01:09:38.223613     9 StratumSessionCkb.cc:160] receive handleRequest_Subscribe jparams : ["GodMiner/2.0.0",null]
 btcpool_1     | I0326 01:09:38.223685     9 StratumSessionCkb.cc:175] send mining  :{"id":1,"result":["null","000002",5],"error":null}
 btcpool_1     | I0326 01:09:38.243556     9 StratumServer.cc:1187] socket closed`
