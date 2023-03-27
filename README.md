@@ -21,8 +21,9 @@ time="2023-03-27 18:27:49" level=error pid=983 msg="JSON-RPC call failed: [
    null
 ], req_id=1"`
 
-3. In order to run a successful installation you need to run a `cargo update` on `btcpool-docker-compose/nodebridge/nodebridge`
+3. In order to run a successful installation you need to run a `cargo update` on `btcpool-docker-compose/nodebridge/nodebridge` before running `STACK=prometheus make start`
 4. Grafana dashboard works fine but need to adjust new variables for NODE height.
+5. Even if I modified sserver.cfg for mainnet, I think it needs to be adjusted better for CKB
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
