@@ -1,4 +1,4 @@
-# updates found to get this partially working:
+# Updates found to get this partially working:
 
 # btcpool-docker-compose
 
