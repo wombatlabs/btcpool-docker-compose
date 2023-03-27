@@ -1,4 +1,12 @@
-# Updates found to get this partially working:
+# See updated configuration file in this fork and what I did in order to get this partially working:
+1. MySQL needs to be updated, there are missing tables that the code is expecting to write on it.
+1. JSON RPC code need to be updated, I believe in the nodebridge side. (i.e. ([StratumServer.cc:310] jobId already existed")
+1. miner-list does not allow to add more users, other than the pre-defioned in this code (alice and bob) - If you add more users in the JSON file and rebuild the docker, it does not work. 
+1. TT miner is able to connect have a lot of stale shares and then it start mining, ASICs miners does not get to the authorize stage and close the socket. From the ASIC perspective the status of the pool is "abnormal" see errors:
+2. 
+3. Pick a [network](#configure-the-network) to run on 
+4. [Validate](#validate-that-the-pool-is-running) that the deployment is working 
+
 
 # btcpool-docker-compose
 
