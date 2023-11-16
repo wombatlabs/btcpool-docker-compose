@@ -33,7 +33,7 @@ This is a docker-compose stack to setup a Stratum V1 mining pool for Nervos Bloc
 
 ## Quick Start
 
-Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/). 
+Install [docker](https://docs.docker.com/get-docker/) (Docker 1.28.5) and [docker-compose](https://docs.docker.com/compose/install/). 
 
 ```shell script
 STACK=prometheus make start 
